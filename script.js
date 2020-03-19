@@ -7,3 +7,11 @@ const tuperware = document.getElementById('tuperware');
 const my_input = document.getElementById('my_input');
 const response = document.getElementById('response');
 
+const btnClicked = (event) => {
+    console.log(event.target.id);
+}
+
+family.addEventListener('click', btnClicked);
+nsfw.addEventListener('click', btnClicked);
+water.addEventListener('click', btnClicked);
+tuperware.addEventListener('click', btnClicked);
